@@ -1,0 +1,143 @@
+body{
+    padding: 10px;
+}
+
+header{ display:flex;
+    margin: 10px;
+    border: 2px solid black;
+    flex-direction: column;
+   
+}
+
+.navbar{ display: flex;
+    align-content: center;
+    margin-top: 4px;
+    width: 100%;
+    font-size: 35px;
+    border: 2px solid black;
+    justify-content:space-between;
+    
+}
+#searchbar{display: flex;
+
+width: 70%;
+border: 2px solid black;
+
+}
+
+#locationimg{ padding:5px; margin-top: 7px;
+
+border-right: 2px solid rgb(147, 142, 142);}
+
+#login{ 
+    
+    border: 2px solid black;
+    border: 2px solid black;
+    width: 20%;
+}
+#location{ display: flex;
+display: inline;
+padding: 10px;
+
+}
+#search{
+ border: 10px solid black;
+ padding: 10px;
+display:flex;
+width: 40%;
+
+}
+
+.input{border: 2px solid white;
+}
+#searchinput{ width: 100%;}
+
+.log{ width:100px;
+    height: 50px;
+    margin:5px;
+}
+.typeoforder{ display: flex;align-items: center;
+    border-bottom: 2px solid rgb(251, 5, 5); margin: 5px;
+    height:100px;
+    width:200px
+}
+.orderimg{ width:2.5rem;
+margin: 10px;}
+
+#filterbox{ margin-top: 2px; 
+    padding: 3px;
+    border: 2px solid rgb(225, 26, 26);
+display: flex;
+flex-wrap: wrap;}
+
+.filter{ border: 3px solid rgb(185, 177, 177);
+   margin: auto;
+   display: flex;
+    margin: 6px;
+    padding: 7px;
+    color: grey;    
+}
+ #foodslider {height: 220px;border: 2px solid black;
+overflow-x:auto ; -webkit-: none;
+}
+
+.sliderdiv { border: 1px solid black;
+    height: 98% ;
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+}
+.slideelement{
+    width: 12%;
+    border: 2px solid black;
+    display: flex; flex-direction: column;
+    align-items: center;
+}
+#foodslider::-webkit-scrollbar{
+    display: none;
+}
+.food{ height: 70%;
+width: 68%;
+text-align: center;
+border: 2px solid rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border-radius: 50%;
+overflow: hidden; }
+
+
+.foodimg{ height: 100%;
+width: 100%;
+object-fit:contain;
+
+}
+
+
+.foodname{ text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    padding: 2px;
+font-weight: bold;}
+
+.cards { border: 2px solid red; display:flex; flex-direction: column;
+    margin-bottom: 30px; padding: 20px; margin-right: 10px;
+    height:350px ;
+    width: 370px;
+
+}
+.cards:hover { border: 2px solid red; display:flex; flex-direction: column;
+    margin-bottom: 30px; padding: 15px; margin-right: 10px;
+    height:350px ;
+    width: 385px;
+    box-shadow: -10px 10px 8px silver;}
+.cardimgholder{ height: 75%; width: 100%;}
+.cardimg{height: 100%; width: 100%;object-fit:cover; border-radius: 10px;}
+.fitimg{height: 70%; width: 70%;object-fit:contain; margin-top: 5px;}
+.carddiv{ display: flex; padding: 3px;}
+.carddiv01{ width:20%; border-top: 2px solid silver;}
+.carddiv02{width:70%; padding: 2px;  border-top: 2px solid silver;}
+.carddiv03{width:10%;  border-top: 2px solid silver;}
+.cardoffer1{color:antiquewhite;position:relative; bottom:2.5rem; background-color: rgb(49, 49, 193); width: 38%; padding-left: 15px; opacity: 0.95;}
+.cardoffer2{color: antiquewhite;position:relative; bottom: 5rem; background-color: rgb(242, 5, 5); width: 38%; padding-left: 15px; opacity:0.95 ;}
+.cardtime{ background-color: antiquewhite;position:relative; left: 310px;; bottom: 4.5rem;  width: 15%; padding-right: 3px; opacity:0.95; text-align: center;}
+.footer{display: flex;}
+.flagmain{ width: 40%;  margin-right: 12px;}
